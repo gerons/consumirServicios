@@ -1,0 +1,15 @@
+{
+"users" :[
+{"id":1, "name":"pancho barrasa", "username":"pancho", "email":"pancho@gmail.com", "image":"http://intranet.mapas-digitales.com/imagenes/usr_fotos/2.jpg"},
+{"id":2, "name":"camila sexta", "username":"camila", "email":"camila@gmail.com", "image":"http://intranet.mapas-digitales.com/imagenes/usr_fotos/3.jpg"}
+],
+  "posts": [
+    { "id": 1, "title": "¿porque adoptar animales?", "body": "pienso que es importante porque...", "userId":1},
+    { "id": 2, "title": "¿que pienso del calentamiento global?", "body": "deberiamos hacer algo con este problema...", "userId":1},
+    { "id": 3, "title": "¿como crear mi propia empresa?", "body": "pienso que es importante porque...", "userId":2}
+  ],
+  "comments": [
+    { "id": 1, "body": "some comment", "postId": 1 },
+    { "id": 2, "body": "some comment", "postId": 1 }
+  ]
+}
